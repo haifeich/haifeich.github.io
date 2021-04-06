@@ -1,0 +1,383 @@
+/** GENERAL **/
+body {
+	background-color: #0e0e0e;
+	font-family: 'Oxygen', sans-serif;
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+/** HEADER **/
+#header-nav {
+    background-color: #0e0e0e; 
+    border-radius: 0;  
+    border: 0;     
+    margin-bottom: 15px;
+}
+
+#logo-img {
+  background: url('../images/chou-80.png') no-repeat;
+  width: 80px;
+  height: 80px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	color: #ffffff;
+}
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 35px;
+    margin-top: 30px;
+}
+
+h1 span:nth-child(1) {
+    color: #d42627;
+}
+h1 span:nth-child(2) {
+    color: #fcd202;
+}
+h1 span:nth-child(3) {
+color: #3d4681;
+}
+
+.navbar-expand-sm .navbar-nav .nav-link {
+    margin-top: 30px;
+    padding: 0.5rem 0.9rem;
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+	color: #3d4681;
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:active {
+	color: #d42627;
+}
+.btn {
+  color:  #ffffff;
+  background-color: #0e0e0e;
+  border-color: #0e0e0e;
+  padding: 25px 10px 0px 0px;
+  margin: 0;
+}
+.btn:hover {
+    color: #3d4681;
+    background-color: #0e0e0e;
+    border-color: #0e0e0e;
+  }
+
+/** Homepage **/
+#homepage .row{
+  padding: 0;
+  margin: 0;
+	background-color: #0e0e0e;
+}
+.row .leftbox:nth-child(1) {
+padding: 0px 0px 5px 10px;
+}
+.row .leftbox:nth-child(2) {
+padding: 5px 0px 0px 10px
+}
+#homepage .row .middlebox {
+  padding: 0px 10px 0px 10px;
+}
+.row .rightbox:nth-child(1) {
+padding: 0px 10px 5px 0px;
+}
+.row .rightbox:nth-child(2) {
+padding: 5px 10px 0px 0px;
+}
+.row .rightbox:nth-child(3) {
+padding: 5px 10px 0px 0px;
+}
+#leftbox1 {
+  background-color: #d42627;
+  height: 19vmax;
+}
+#leftbox2 {
+  background-color: #3d4681;
+  height: 19vmax;
+}
+#middlebox{
+ background-color: #fcd202;
+ height: calc(38vmax + 10px);
+}
+
+#rightbox1 {
+ background-color: #d42627;
+ height: 19vmax;
+}
+#rightbox2 {
+ background-color: #fcd202;
+ height: 19vmax;
+}
+#rightbox3 {
+ background-color: #3d4681;
+ height: 19vmax;
+}
+ #homepage p {
+ 	margin: 0;
+ }
+ #homepage h2 {
+ 	font-size: 0.9rem;
+ 	margin: 0;
+ 	position: absolute;
+ 	bottom: 5px;
+ 	right: 5px;
+ }
+#homepage a:hover {
+	color: #ffffff;
+}
+/** SUBPAGE **/
+#codingpage, #cookingpage, #languagespage, #readingpage, #projectpage, #aboutpage{
+	margin: 0;
+}
+/** Leftbar **/
+#leftbar  {
+	background-color: #d42627;
+	margin: 0;
+	padding: 0;
+}
+#leftbar div  div{
+	min-height: 8vmax;
+	padding: 20px 10px 0 10px;
+}
+/** Rightbar **/
+#rightbar {
+	background-color: #ffffff;
+    margin: 0;
+	padding: 10px;
+}
+#rightbar > div {
+	padding: 1.5rem;
+}
+#rightbar h2 {
+	font-size: 1.1rem;
+	margin: 5px 0 16px 0;
+	font-weight: bold;
+}
+#rightbar p {
+	font-size: 0.85rem;
+	margin-bottom: 14px;
+}
+
+#rightbar a {
+	color: #0e0e0e;
+	font-weight: bold;
+}
+#rightbar a:hover {
+	color: #3d4681;
+	font-weight: bold;
+}
+#rightbar h3 {
+ font-size: 0.8rem;
+ font-weight: bold;
+ padding-top: 2px;
+}
+#rightbar a span {
+	font-size: 0.75rem;
+}
+#rightbar .card p {
+	font-size: 0.8rem;
+}
+
+#rightbar .accordion-item p {
+    margin: 14px 0;
+}
+#rightbar .row .accordion-item {
+    padding: 12px;
+}
+#harrypotterbook {
+	float: right;
+	margin-left: 5px;
+}
+
+/** FOOTER **/
+footer .row div{
+  padding: 0;
+  margin: 0;
+  background-color: #0e0e0e;
+}
+footer {
+  margin: 30px 0px 25px 0px;
+}
+footer div p {
+  color: #ffffff;
+  font-size: 0.75rem;
+  padding: 4px 0 4px 10px;
+}
+p.fst-italic {
+  font-size: 1rem;
+}
+p.text-sm-end {
+  padding: 4px 10px 0px 0px;
+}
+footer img {
+	margin-top: -8px;
+}
+footer a {
+  text-decoration: none;
+  color: #ffffff;
+}
+footer a:hover {
+  color: #3d4681;
+}
+footer div span {
+  font-family: 'Lobster', cursive;
+  color: #ffffff;
+}
+
+/********** xl devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** lg devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  }
+
+/********** md devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+  }
+
+/********** sm devices only **********/
+@media (min-width: 576px) and (max-width: 767px) {
+
+/**HEADER**/
+nav h1 {
+	font-size: 30px;
+	margin-top: 33px;
+}
+.navbar-expand-sm .navbar-nav .nav-link {
+	padding: 0 1rem 0 0;
+	font-size: 0.9rem;
+}
+/** Rightbar **/
+#rightbar .card {
+	width: 75%;
+	margin: 0.5rem auto;
+}
+/**FOOTER**/
+footer {
+  margin: 30px 0px 0px 0px;
+}
+  }
+
+/********** xs devices only **********/
+@media (max-width: 575px) {
+/** HEADER **/
+#header-nav {
+	margin: 0;
+	position: relative;
+}
+h1 {
+  font-size: 25px;
+  margin: 40px 0px 0px -5px;
+}
+.navbar-toggler-icon {
+  width: 1.2em;
+  height: 1.2em;
+}
+
+.navbar-dark .navbar-toggler {
+	color: #ffffff;
+	border-color: #ffffff;
+	padding: 1px 5px;
+	margin-top: 20px;
+}
+.navbar-dark .navbar-toggler:hover {
+	    color: #3d4681;
+    border-color: #3d4681;
+}
+.navbar-expand-sm .navbar-nav .nav-link {
+	margin-top: 5px;
+}
+.btn {
+	padding: 0;
+	margin-bottom: 20px;
+}
+.bi-facebook {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+}
+.bi-envelope {
+   position: absolute;
+	bottom: 10px;
+	right: 40px;
+}
+/** HOMEPAGE BODY **/
+.row .leftbox:nth-child(1) {
+    padding: 0px 5px 5px 10px;
+}
+.row .leftbox:nth-child(2) {
+    padding: 0px 10px 5px 5px
+}
+#homepage .row .middlebox {
+	padding: 5px 10px 10px 10px;
+}
+.row .rightbox:nth-child(1) {
+    padding: 0px 10px 0px 10px;
+}
+.row .rightbox:nth-child(2) {
+    padding: 10px 5px 0px 10px;
+}
+.row .rightbox:nth-child(3) {
+    padding: 10px 10px 0px 5px;
+}
+
+/** SUBPAGE **/
+
+#leftbar > div {
+	padding: 0;
+}
+#leftbar div div {
+    padding: 0;
+}
+
+#rightbar .card {
+	margin: 0.5rem 0;
+}
+
+#harrypotter {
+	margin-left: -18px;
+}
+#harrypotterbook {
+	width: 100%;
+	margin-bottom: 15px;
+}
+/** FOOTER **/
+footer .row div {
+	text-align: center;
+}
+p.text-sm-end {
+  padding: 4px 0px 0px 0px;
+}
+  }
+
+/********  Extra small device *****/
+@media (max-width: 360px) {
+/** HEADER **/
+#logo-img {
+  background: url('../images/chou-45.png') no-repeat;
+  width: 45px;
+  height: 45px;
+  margin-top: 16px;
+}
+.navbar-dark .navbar-toggler {
+	margin-top: 25px;
+}
+.navbar-toggler-icon {
+  width: 1.0em;
+  height: 1.0em;
+}
+h1 {
+  font-size: 22px;
+  margin: 35px 0px 0px 0px;
+}
+
+/** SUBPAGE **/
+#leftbar a img { 
+ width: 40%;
+}
+
+  }
